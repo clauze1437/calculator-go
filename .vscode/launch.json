@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "calculator",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/main.go",
+            "env": {
+                "FIRST_NUMBER" : "30",
+                "SECOND_NUMBER" : "20",
+                "ACTION" : "+"
+            }
+        }
+    ]
+}
